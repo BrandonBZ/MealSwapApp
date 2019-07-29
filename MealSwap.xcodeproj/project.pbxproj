@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165BB47122EB5F76002904A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 165BB47022EB5F76002904A4 /* GoogleService-Info.plist */; };
+		165BB47322EB6D70002904A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BB47222EB6D70002904A4 /* LoginViewController.swift */; };
+		165BB47522EB6D85002904A4 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BB47422EB6D85002904A4 /* SignupViewController.swift */; };
+		165BB47722EB6DB0002904A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BB47622EB6DB0002904A4 /* MapViewController.swift */; };
+		165BB47922EB6DBA002904A4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BB47822EB6DBA002904A4 /* HomeViewController.swift */; };
+		165BB47D22EB71E4002904A4 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BB47C22EB71E4002904A4 /* RecipesViewController.swift */; };
+		165BB47F22EB720E002904A4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BB47E22EB720E002904A4 /* ProfileViewController.swift */; };
+		16AAC81322EA097D0002EF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AAC81222EA097D0002EF61 /* AppDelegate.swift */; };
+		16AAC81522EA097D0002EF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AAC81422EA097D0002EF61 /* ViewController.swift */; };
+		16AAC81822EA097D0002EF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AAC81622EA097D0002EF61 /* Main.storyboard */; };
+		16AAC81D22EA09800002EF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AAC81B22EA09800002EF61 /* LaunchScreen.storyboard */; };
+		16C2ABA122ED02020040505C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C2ABA022ED02020040505C /* Assets.xcassets */; };
+		16C2ABA322ED52300040505C /* friendRequestCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2ABA222ED52300040505C /* friendRequestCells.swift */; };
+		16C2ABA522EE59540040505C /* foodFeedCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2ABA422EE59540040505C /* foodFeedCells.swift */; };
+		778323B417BE3C4F277B52CA /* Pods_MealSwap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7B1F8A82908C5684D39F55 /* Pods_MealSwap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		165BB47022EB5F76002904A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		165BB47222EB6D70002904A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		165BB47422EB6D85002904A4 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		165BB47622EB6DB0002904A4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		165BB47822EB6DBA002904A4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		165BB47C22EB71E4002904A4 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		165BB47E22EB720E002904A4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		16AAC80F22EA097D0002EF61 /* MealSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AAC81222EA097D0002EF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16AAC81422EA097D0002EF61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16AAC81722EA097D0002EF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16AAC81C22EA09800002EF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16AAC81E22EA09800002EF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C2ABA022ED02020040505C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16C2ABA222ED52300040505C /* friendRequestCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendRequestCells.swift; sourceTree = "<group>"; };
+		16C2ABA422EE59540040505C /* foodFeedCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodFeedCells.swift; sourceTree = "<group>"; };
+		2E7B1F8A82908C5684D39F55 /* Pods_MealSwap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealSwap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388E862AEBD837FBE05E74E2 /* Pods-MealSwap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealSwap.debug.xcconfig"; path = "Target Support Files/Pods-MealSwap/Pods-MealSwap.debug.xcconfig"; sourceTree = "<group>"; };
+		BD97A07F1D1FFDFB2BB7A610 /* Pods-MealSwap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealSwap.release.xcconfig"; path = "Target Support Files/Pods-MealSwap/Pods-MealSwap.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16AAC80C22EA097D0002EF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778323B417BE3C4F277B52CA /* Pods_MealSwap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AAC80622EA097D0002EF61 = {
+			isa = PBXGroup;
+			children = (
+				16AAC81122EA097D0002EF61 /* MealSwap */,
+				16AAC81022EA097D0002EF61 /* Products */,
+				2E42ECC779760DD2C67B8F12 /* Pods */,
+				95A7256190296708AA010257 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16AAC81022EA097D0002EF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16AAC80F22EA097D0002EF61 /* MealSwap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16AAC81122EA097D0002EF61 /* MealSwap */ = {
+			isa = PBXGroup;
+			children = (
+				16AAC81222EA097D0002EF61 /* AppDelegate.swift */,
+				16AAC81422EA097D0002EF61 /* ViewController.swift */,
+				165BB47222EB6D70002904A4 /* LoginViewController.swift */,
+				165BB47422EB6D85002904A4 /* SignupViewController.swift */,
+				165BB47622EB6DB0002904A4 /* MapViewController.swift */,
+				165BB47822EB6DBA002904A4 /* HomeViewController.swift */,
+				165BB47E22EB720E002904A4 /* ProfileViewController.swift */,
+				165BB47C22EB71E4002904A4 /* RecipesViewController.swift */,
+				16C2ABA022ED02020040505C /* Assets.xcassets */,
+				16AAC81622EA097D0002EF61 /* Main.storyboard */,
+				16C2ABA422EE59540040505C /* foodFeedCells.swift */,
+				16C2ABA222ED52300040505C /* friendRequestCells.swift */,
+				16AAC81B22EA09800002EF61 /* LaunchScreen.storyboard */,
+				16AAC81E22EA09800002EF61 /* Info.plist */,
+				165BB47022EB5F76002904A4 /* GoogleService-Info.plist */,
+			);
+			path = MealSwap;
+			sourceTree = "<group>";
+		};
+		2E42ECC779760DD2C67B8F12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				388E862AEBD837FBE05E74E2 /* Pods-MealSwap.debug.xcconfig */,
+				BD97A07F1D1FFDFB2BB7A610 /* Pods-MealSwap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95A7256190296708AA010257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B1F8A82908C5684D39F55 /* Pods_MealSwap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16AAC80E22EA097D0002EF61 /* MealSwap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AAC82122EA09800002EF61 /* Build configuration list for PBXNativeTarget "MealSwap" */;
+			buildPhases = (
+				2812B89B5805A93D6774A56B /* [CP] Check Pods Manifest.lock */,
+				16AAC80B22EA097D0002EF61 /* Sources */,
+				16AAC80C22EA097D0002EF61 /* Frameworks */,
+				16AAC80D22EA097D0002EF61 /* Resources */,
+				39E158086E3FDFB8F9424807 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MealSwap;
+			productName = MealSwap;
+			productReference = 16AAC80F22EA097D0002EF61 /* MealSwap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16AAC80722EA097D0002EF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HGPMAC78;
+				TargetAttributes = {
+					16AAC80E22EA097D0002EF61 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 16AAC80A22EA097D0002EF61 /* Build configuration list for PBXProject "MealSwap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16AAC80622EA097D0002EF61;
+			productRefGroup = 16AAC81022EA097D0002EF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16AAC80E22EA097D0002EF61 /* MealSwap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16AAC80D22EA097D0002EF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AAC81D22EA09800002EF61 /* LaunchScreen.storyboard in Resources */,
+				165BB47122EB5F76002904A4 /* GoogleService-Info.plist in Resources */,
+				16C2ABA122ED02020040505C /* Assets.xcassets in Resources */,
+				16AAC81822EA097D0002EF61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2812B89B5805A93D6774A56B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MealSwap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39E158086E3FDFB8F9424807 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MealSwap/Pods-MealSwap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MealSwap/Pods-MealSwap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MealSwap/Pods-MealSwap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16AAC80B22EA097D0002EF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BB47322EB6D70002904A4 /* LoginViewController.swift in Sources */,
+				165BB47D22EB71E4002904A4 /* RecipesViewController.swift in Sources */,
+				16AAC81522EA097D0002EF61 /* ViewController.swift in Sources */,
+				165BB47522EB6D85002904A4 /* SignupViewController.swift in Sources */,
+				165BB47722EB6DB0002904A4 /* MapViewController.swift in Sources */,
+				16AAC81322EA097D0002EF61 /* AppDelegate.swift in Sources */,
+				165BB47F22EB720E002904A4 /* ProfileViewController.swift in Sources */,
+				16C2ABA522EE59540040505C /* foodFeedCells.swift in Sources */,
+				165BB47922EB6DBA002904A4 /* HomeViewController.swift in Sources */,
+				16C2ABA322ED52300040505C /* friendRequestCells.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16AAC81622EA097D0002EF61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AAC81722EA097D0002EF61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16AAC81B22EA09800002EF61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AAC81C22EA09800002EF61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16AAC81F22EA09800002EF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16AAC82022EA09800002EF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16AAC82222EA09800002EF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388E862AEBD837FBE05E74E2 /* Pods-MealSwap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MealSwap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pierre.MealSwap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16AAC82322EA09800002EF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD97A07F1D1FFDFB2BB7A610 /* Pods-MealSwap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MealSwap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pierre.MealSwap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16AAC80A22EA097D0002EF61 /* Build configuration list for PBXProject "MealSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AAC81F22EA09800002EF61 /* Debug */,
+				16AAC82022EA09800002EF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AAC82122EA09800002EF61 /* Build configuration list for PBXNativeTarget "MealSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AAC82222EA09800002EF61 /* Debug */,
+				16AAC82322EA09800002EF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16AAC80722EA097D0002EF61 /* Project object */;
+}
