@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160B8E9222EFACBB006556CE /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160B8E9122EFACBB006556CE /* ShoppingListViewController.swift */; };
+		160B8E9622EFAD89006556CE /* shoppingListCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160B8E9522EFAD89006556CE /* shoppingListCells.swift */; };
 		165BB47122EB5F76002904A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 165BB47022EB5F76002904A4 /* GoogleService-Info.plist */; };
 		165BB47322EB6D70002904A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BB47222EB6D70002904A4 /* LoginViewController.swift */; };
 		165BB47522EB6D85002904A4 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165BB47422EB6D85002904A4 /* SignupViewController.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160B8E9122EFACBB006556CE /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		160B8E9522EFAD89006556CE /* shoppingListCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingListCells.swift; sourceTree = "<group>"; };
 		165BB47022EB5F76002904A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		165BB47222EB6D70002904A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		165BB47422EB6D85002904A4 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
@@ -83,12 +87,14 @@
 				16AAC81422EA097D0002EF61 /* ViewController.swift */,
 				165BB47222EB6D70002904A4 /* LoginViewController.swift */,
 				165BB47422EB6D85002904A4 /* SignupViewController.swift */,
-				165BB47622EB6DB0002904A4 /* MapViewController.swift */,
 				165BB47822EB6DBA002904A4 /* HomeViewController.swift */,
-				165BB47E22EB720E002904A4 /* ProfileViewController.swift */,
+				160B8E9122EFACBB006556CE /* ShoppingListViewController.swift */,
+				165BB47622EB6DB0002904A4 /* MapViewController.swift */,
 				165BB47C22EB71E4002904A4 /* RecipesViewController.swift */,
+				165BB47E22EB720E002904A4 /* ProfileViewController.swift */,
 				16C2ABA022ED02020040505C /* Assets.xcassets */,
 				16AAC81622EA097D0002EF61 /* Main.storyboard */,
+				160B8E9522EFAD89006556CE /* shoppingListCells.swift */,
 				16C2ABA422EE59540040505C /* foodFeedCells.swift */,
 				16C2ABA222ED52300040505C /* friendRequestCells.swift */,
 				16AAC81B22EA09800002EF61 /* LaunchScreen.storyboard */,
@@ -231,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160B8E9222EFACBB006556CE /* ShoppingListViewController.swift in Sources */,
+				160B8E9622EFAD89006556CE /* shoppingListCells.swift in Sources */,
 				165BB47322EB6D70002904A4 /* LoginViewController.swift in Sources */,
 				165BB47D22EB71E4002904A4 /* RecipesViewController.swift in Sources */,
 				16AAC81522EA097D0002EF61 /* ViewController.swift in Sources */,
